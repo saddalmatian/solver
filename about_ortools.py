@@ -1,5 +1,4 @@
 from ortools.linear_solver import pywraplp
-from ortools.init import pywrapinit
 
 solver = pywraplp.Solver.CreateSolver('GLOP')
 
